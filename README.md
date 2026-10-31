@@ -27,8 +27,7 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
 
 ## Publications
 
-- **On Adversarial Vulnerability of Vision-Language Models through the Lens of Intermediate Spectral Subspaces**
-  C. K. Ramanaik, T. Callies, M. Hecht, E. Ntoutsi  
+- [**On Adversarial Vulnerability of Vision-Language Models through the Lens of Intermediate Spectral <span class="nowrap">Subspaces<span class="click-icon"></span></span>**<br>C. K. Ramanaik, T. Callies, M. Hecht, E. Ntoutsi](ssgra/)  
   *18th Asian Conference on Computer Vision (ACCV 2026)*, Osaka, Japan. Preprint: [arXiv:2607.07375](https://arxiv.org/abs/2607.07375)
 
 - [**Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal <span class="nowrap">Restoration<span class="click-icon"></span></span>**<br>C. K. Ramanaik, A. Roy, T. Callies, E. Ntoutsi](grill/)  

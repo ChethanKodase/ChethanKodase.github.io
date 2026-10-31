@@ -29,19 +29,18 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
 
 - **On Adversarial Vulnerability of Vision-Language Models through the Lens of Intermediate Spectral Subspaces**
   C. K. Ramanaik, T. Callies, M. Hecht, E. Ntoutsi  
-  *18th Asian Conference on Computer Vision (ACCV 2026)*, Osaka, Japan. Preprint: arXiv:2607.07375
+  *18th Asian Conference on Computer Vision (ACCV 2026)*, Osaka, Japan. Preprint: [arXiv:2607.07375](https://arxiv.org/abs/2607.07375)
 
-- **Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal Restoration**
-  C. K. Ramanaik, A. Roy, T. Callies, E. Ntoutsi  
-  *35th ACM International Conference on Information and Knowledge Management (CIKM 2026)*. Preprint: arXiv:2505.03646
+- [**Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal Restoration**<br>C. K. Ramanaik, A. Roy, T. Callies, E. Ntoutsi](grill/)  
+  *35th ACM International Conference on Information and Knowledge Management (CIKM 2026)*. Preprint: [arXiv:2505.03646](https://arxiv.org/abs/2505.03646)
 
 - **Adversarial Robustness of Variational Autoencoders Across Intersectional Subgroups**
   C. K. Ramanaik, A. Roy, E. Ntoutsi  
-  *BIAS Workshop at ECML PKDD 2024*, Vilnius, Lithuania (Machine Learning and Principles and Practice of Knowledge Discovery in Databases)
+  *BIAS Workshop at ECML PKDD 2024*, Vilnius, Lithuania (Machine Learning and Principles and Practice of Knowledge Discovery in Databases). Preprint: [arXiv:2407.03864](https://arxiv.org/abs/2407.03864)
 
 - **Ensuring Topological Data-Structure Preservation under Autoencoder Compression Due to Latent Space Regularization in Gauss–Legendre Nodes**
-  C. K. Ramanaik, A. Willmann, J. E. Suarez Cardona, P. Hanfeld, N. Hoffmann, et al.  
-  *Axioms* 13(8), 535, 2024 (Special Issue on Differential Geometry and Its Application)
+  C. K. Ramanaik, A. Willmann, J. E. Suarez Cardona, P. Hanfeld, N. Hoffmann, M. Hecht  
+  *Axioms* 13(8), 535, 2024 (Special Issue on Differential Geometry and Its Application). [Journal](https://doi.org/10.3390/axioms13080535) · Preprint: [arXiv:2309.08228](https://arxiv.org/abs/2309.08228)
 
 ## Research projects
 

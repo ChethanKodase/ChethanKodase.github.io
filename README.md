@@ -31,8 +31,8 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
   C. K. Ramanaik, T. Callies, M. Hecht, E. Ntoutsi  
   *18th Asian Conference on Computer Vision (ACCV 2026)*, Osaka, Japan. Preprint: [arXiv:2607.07375](https://arxiv.org/abs/2607.07375)
 
-- [**Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal Restoration**<br>C. K. Ramanaik, A. Roy, T. Callies, E. Ntoutsi](grill/)  
-  *35th ACM International Conference on Information and Knowledge Management (CIKM 2026)*. Preprint: [arXiv:2505.03646](https://arxiv.org/abs/2505.03646) [Read the article →](grill/)
+- [**Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal <span class="nowrap">Restoration<span class="click-icon"></span></span>**<br>C. K. Ramanaik, A. Roy, T. Callies, E. Ntoutsi](grill/)  
+  *35th ACM International Conference on Information and Knowledge Management (CIKM 2026)*. Preprint: [arXiv:2505.03646](https://arxiv.org/abs/2505.03646)
 
 - **Adversarial Robustness of Variational Autoencoders Across Intersectional Subgroups**
   C. K. Ramanaik, A. Roy, E. Ntoutsi  

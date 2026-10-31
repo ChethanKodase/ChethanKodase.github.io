@@ -264,3 +264,44 @@ pre {
   .topnav { margin: 16px auto 8px; padding: 0 20px; }
   .article .paper-head h1 { font-size: 1.6rem; }
 }
+
+/* ---------- "This title is clickable" cues ---------- */
+/* Arrow icon after linked publication titles */
+#publications + ul li > p > a:first-child strong::after {
+  content: "";
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  margin-left: 6px;
+  vertical-align: -0.12em;
+  background-color: var(--accent);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17L17 7'/%3E%3Cpath d='M8 7h9v9'/%3E%3C/svg%3E") center / contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 17L17 7'/%3E%3Cpath d='M8 7h9v9'/%3E%3C/svg%3E") center / contain no-repeat;
+  transition: transform 0.15s ease;
+}
+#publications + ul li > p > a:first-child:hover strong::after { transform: translate(2px, -2px); }
+#publications + ul li > p > a:first-child:hover strong { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Cards with an article get a pointer and a lift on hover */
+#publications + ul li:has(> p > a:first-child) { transition: box-shadow 0.15s ease, transform 0.15s ease; }
+#publications + ul li:has(> p > a:first-child):hover {
+  box-shadow: 0 6px 18px rgba(30, 45, 90, 0.10);
+  transform: translateY(-1px);
+}
+
+/* "Read the article" pill button */
+#publications + ul li a:not(:first-child)[href$="grill/"] {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 12px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.8;
+  vertical-align: 1px;
+}
+#publications + ul li a:not(:first-child)[href$="grill/"]:hover { background: #2349b0; }

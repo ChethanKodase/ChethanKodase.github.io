@@ -74,7 +74,7 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
 
 ## Contact
 
-- Email: chethan.krishnamurthy@unibw.de
-- Google Scholar: https://scholar.google.com/citations?user=MP-lUoIAAAAJ
-- LinkedIn: https://www.linkedin.com/in/chethankodase
-- GitHub: https://github.com/ChethanKodase
+- Email: [chethan.krishnamurthy@unibw.de](mailto:chethan.krishnamurthy@unibw.de)
+- Google Scholar: [scholar.google.com/citations?user=MP-lUoIAAAAJ](https://scholar.google.com/citations?user=MP-lUoIAAAAJ)
+- LinkedIn: [linkedin.com/in/chethankodase](https://www.linkedin.com/in/chethankodase)
+- GitHub: [github.com/ChethanKodase](https://github.com/ChethanKodase)

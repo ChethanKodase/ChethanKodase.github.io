@@ -47,8 +47,8 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
 
 ## Research projects
 
-- **MAMMOth** (Horizon Europe): multi-dimensional discrimination in AI systems. My contribution studies bias as disparity in adversarial robustness across subgroups.
-- **STELAR** (Horizon Europe): data quality and AI for agriculture. I worked on spatio-temporal, bias-aware crop classification using deep learning and ensemble methods.
+- **[MAMMOth](https://mammoth-ai.eu/)** (Horizon Europe): multi-dimensional discrimination in AI systems. My contribution studies bias as disparity in adversarial robustness across subgroups.
+- **[STELAR](https://stelar-project.eu/)** (Horizon Europe): data quality and AI for agriculture. I worked on spatio-temporal, bias-aware crop classification using deep learning and ensemble methods.
 
 ## Experience
 
@@ -72,4 +72,4 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
 
 - Presented *Adversarial Robustness of VAEs across Intersectional Subgroups* at the BIAS workshop, ECML PKDD 2024, Vilnius
 - Participant, Dagstuhl Seminar 23431: *Network Attack Detection and Defense – AI-Powered Threats and Responses* (2023)
-- Speaker, STELAR Virtual Open Day on remote sensing for agriculture (2025)
+- Speaker, [STELAR](https://stelar-project.eu/) Virtual Open Day on remote sensing for agriculture (2025)

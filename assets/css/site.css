@@ -184,14 +184,49 @@ tr:hover td { background: #fafbfe; }
 figure.narrow img { max-width: 420px; width: 100%; }
 
 
-/* ---------- Top navigation on sub-pages ---------- */
-.topnav {
-  max-width: 860px;
-  margin: 28px auto -28px;
-  padding: 0 8px;
-  font-size: 0.92rem;
+/* ---------- Site navigation bar (all pages) ---------- */
+html { scroll-behavior: smooth; }
+.page h2[id] { scroll-margin-top: 80px; }
+.sitenav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.88);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+          backdrop-filter: saturate(180%) blur(10px);
+  border-bottom: 1px solid var(--border);
 }
-.topnav a { border-bottom: 0; font-weight: 500; }
+.sitenav-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.sitenav-name {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: #1c2233;
+  border-bottom: 0;
+  white-space: nowrap;
+}
+.sitenav-links { display: flex; gap: 4px; }
+.sitenav-links a {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border-bottom: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.sitenav-links a:hover { background: var(--accent-soft); color: var(--accent); }
+.sitenav-links a.active { background: var(--accent); color: #fff; }
+.page { margin-top: 32px; }
 
 /* ---------- Paper article pages ---------- */
 .article .paper-head { text-align: center; padding-bottom: 26px; border-bottom: 1px solid var(--border); }
@@ -260,7 +295,6 @@ pre {
 
 @media (max-width: 700px) {
   .fig-row { flex-direction: column; }
-  .topnav { margin: 16px auto 8px; padding: 0 20px; }
   .article .paper-head h1 { font-size: 1.6rem; }
 }
 
@@ -330,3 +364,11 @@ pre {
 .contact-links a[title="LinkedIn"] svg { fill: #0a66c2; }
 .contact-links a[title="GitHub"] svg { fill: #181717; }
 @media (max-width: 700px) { .contact-links { justify-content: center; } }
+
+@media (max-width: 760px) {
+  .sitenav-inner { flex-direction: column; align-items: stretch; gap: 6px; padding: 8px 12px; }
+  .sitenav-name { text-align: center; }
+  .sitenav-links { flex-wrap: wrap; justify-content: center; gap: 2px; }
+  .sitenav-links a { padding: 4px 8px; font-size: 0.82rem; }
+  .page h2[id] { scroll-margin-top: 110px; }
+}

@@ -15,12 +15,41 @@
   {% endif %}
 </head>
 <body>
-  {% if page.url != '/' %}
-  <nav class="topnav"><a href="{{ '/' | relative_url }}">← Chethan Krishnamurthy Ramanaik</a></nav>
-  {% endif %}
+  {% assign home = '/' | relative_url %}
+  <header class="sitenav">
+    <div class="sitenav-inner">
+      <a class="sitenav-name" href="{{ home }}">Chethan Krishnamurthy Ramanaik</a>
+      <nav class="sitenav-links">
+        <a href="{{ home }}#about-me">About</a>
+        <a href="{{ home }}#publications">Publications</a>
+        <a href="{{ home }}#research-projects">Projects</a>
+        <a href="{{ home }}#experience">Experience</a>
+        <a href="{{ home }}#talks-and-events">Talks</a>
+      </nav>
+    </div>
+  </header>
   <main class="page {{ page.class }}">
     {{ content }}
   </main>
+  {% if page.url == '/' %}
+  <script>
+    // Highlight the nav item of the section currently on screen
+    (function () {
+      var links = document.querySelectorAll('.sitenav-links a');
+      var map = {};
+      links.forEach(function (a) { map[a.getAttribute('href').split('#')[1]] = a; });
+      var heads = Array.prototype.slice.call(document.querySelectorAll('.page h2[id]'));
+      function update() {
+        var active = null;
+        heads.forEach(function (h) { if (map[h.id] && h.getBoundingClientRect().top < 140) active = h.id; });
+        links.forEach(function (a) { a.classList.remove('active'); });
+        if (active && map[active]) map[active].classList.add('active');
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+  {% endif %}
   <footer class="footer">© {{ site.time | date: '%Y' }} Chethan Krishnamurthy Ramanaik</footer>
 </body>
 </html>

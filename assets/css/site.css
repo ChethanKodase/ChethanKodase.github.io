@@ -182,8 +182,7 @@ tr:hover td { background: #fafbfe; }
 }
 #publications + ul li > p > a:first-child strong { display: inline; }
 figure.narrow img { max-width: 420px; width: 100%; }
-#publications + ul li > p > a:first-child:hover,
-#publications + ul li > p > a:first-child:hover strong { color: var(--accent); }
+
 
 /* ---------- Top navigation on sub-pages ---------- */
 .topnav {
@@ -278,5 +277,23 @@ pre {
           mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 2.5l13.5 10.2-5.7.9 3.4 6.6-2.7 1.4-3.4-6.6-4.1 4.2z'/%3E%3C/svg%3E") center / contain no-repeat;
   transition: transform 0.15s ease;
 }
-#publications + ul li > p > a:first-child:hover .click-icon { transform: translate(2px, -1px) scale(1.1); }
-#publications + ul li > p > a:first-child:hover strong { text-decoration: underline; text-underline-offset: 3px; }
+/* Linked titles: always blue and underlined */
+#publications + ul li > p > a:first-child { cursor: pointer; }
+#publications + ul li > p > a:first-child strong {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease, text-decoration-thickness 0.15s ease;
+}
+/* Hover: darker blue, thicker underline, soft highlight, pointer nudges */
+#publications + ul li > p > a:first-child:hover strong {
+  color: #1a3c9e;
+  text-decoration-thickness: 2px;
+  background: var(--accent-soft);
+  border-radius: 3px;
+}
+#publications + ul li > p > a:first-child:hover .click-icon {
+  background-color: #1a3c9e;
+  transform: translate(2px, -1px) scale(1.15);
+}

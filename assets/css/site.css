@@ -1,0 +1,174 @@
+:root {
+  --bg: #f6f7fb;
+  --card: #ffffff;
+  --text: #2b2f3a;
+  --muted: #5d6475;
+  --accent: #2f5bd3;
+  --accent-soft: #e8eefc;
+  --teal: #0f8b8d;
+  --border: #e3e6ee;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 400px at 50% -120px, #dfe7fb 0%, rgba(223,231,251,0) 70%),
+    var(--bg);
+  color: var(--text);
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 16.5px;
+  line-height: 1.7;
+}
+
+.page {
+  max-width: 860px;
+  margin: 48px auto 24px;
+  padding: 48px 56px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(30, 45, 90, 0.06);
+}
+
+/* ---------- Header with photo ---------- */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  padding-bottom: 28px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.hero img {
+  width: 170px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 3px var(--accent-soft), 0 8px 20px rgba(30, 45, 90, 0.15);
+}
+.hero h1 {
+  margin: 0 0 6px;
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+.hero .role {
+  margin: 0;
+  font-weight: 600;
+  color: var(--accent);
+}
+.hero .affil {
+  margin: 2px 0 0;
+  color: var(--muted);
+}
+
+/* ---------- Typography ---------- */
+h1, h2, h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  color: #1c2233;
+}
+h2 {
+  font-size: 1.45rem;
+  margin: 42px 0 14px;
+  padding-left: 14px;
+  border-left: 4px solid var(--accent);
+  line-height: 1.3;
+}
+p { margin: 0 0 14px; }
+strong { color: #1c2233; }
+em { color: var(--muted); }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(47, 91, 211, 0.25);
+}
+a:hover { border-bottom-color: var(--accent); }
+
+hr { display: none; }
+
+/* ---------- Research interests as tags ---------- */
+#research-interests + ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#research-interests + ul li {
+  background: var(--accent-soft);
+  color: #23408f;
+  padding: 5px 14px;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/* ---------- Publications as cards ---------- */
+#publications + ul {
+  list-style: none;
+  padding: 0;
+}
+#publications + ul li {
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  background: #fafbfe;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--teal);
+  border-radius: 10px;
+}
+#publications + ul li p { margin: 0; }
+#publications + ul li strong { display: block; margin-bottom: 4px; }
+
+/* ---------- General lists ---------- */
+ul { padding-left: 22px; }
+li { margin-bottom: 6px; }
+li::marker { color: var(--accent); }
+
+/* ---------- Experience table ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--border);
+  padding: 8px 10px;
+}
+td {
+  padding: 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+td:first-child {
+  white-space: nowrap;
+  color: var(--teal);
+  font-weight: 500;
+}
+tr:hover td { background: #fafbfe; }
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 12px 0 40px;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 700px) {
+  .page { margin: 0; padding: 28px 20px; border-radius: 0; border: 0; }
+  .hero { flex-direction: column; text-align: center; gap: 18px; }
+  .hero h1 { font-size: 1.8rem; }
+  td:first-child { white-space: normal; }
+}

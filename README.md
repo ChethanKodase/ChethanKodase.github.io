@@ -1,10 +1,12 @@
-# Chethan Krishnamurthy Ramanaik
-
-**Doctoral Researcher** · Artificial Intelligence & Machine Learning Lab (AIML)
-Forschungsinstitut Cyber Defence (CODE), Universität der Bundeswehr München
-Munich, Germany
-
----
+<div class="hero">
+  <img src="assets/img/profile.jpg" alt="Chethan Krishnamurthy Ramanaik" width="170">
+  <div>
+    <h1>Chethan Krishnamurthy Ramanaik</h1>
+    <p class="role">Doctoral Researcher · AI &amp; Machine Learning Lab (AIML)</p>
+    <p class="affil">Forschungsinstitut Cyber Defence (CODE), Universität der Bundeswehr München</p>
+    <p class="affil">Munich, Germany</p>
+  </div>
+</div>
 
 ## About me
 
@@ -26,19 +28,19 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
 ## Publications
 
 - **On Adversarial Vulnerability of Vision-Language Models through the Lens of Intermediate Spectral Subspaces**
-  C. K. Ramanaik, T. Callies, M. Hecht, E. Ntoutsi
+  C. K. Ramanaik, T. Callies, M. Hecht, E. Ntoutsi  
   *18th Asian Conference on Computer Vision (ACCV 2026)*, Osaka, Japan. Preprint: arXiv:2607.07375
 
 - **Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal Restoration**
-  C. K. Ramanaik, A. Roy, T. Callies, E. Ntoutsi
+  C. K. Ramanaik, A. Roy, T. Callies, E. Ntoutsi  
   *35th ACM International Conference on Information and Knowledge Management (CIKM 2026)*. Preprint: arXiv:2505.03646
 
 - **Adversarial Robustness of Variational Autoencoders Across Intersectional Subgroups**
-  C. K. Ramanaik, A. Roy, E. Ntoutsi
+  C. K. Ramanaik, A. Roy, E. Ntoutsi  
   *BIAS Workshop at ECML PKDD 2024*, Vilnius, Lithuania (Machine Learning and Principles and Practice of Knowledge Discovery in Databases)
 
 - **Ensuring Topological Data-Structure Preservation under Autoencoder Compression Due to Latent Space Regularization in Gauss–Legendre Nodes**
-  C. K. Ramanaik, A. Willmann, J. E. Suarez Cardona, P. Hanfeld, N. Hoffmann, et al.
+  C. K. Ramanaik, A. Willmann, J. E. Suarez Cardona, P. Hanfeld, N. Hoffmann, et al.  
   *Axioms* 13(8), 535, 2024 (Special Issue on Differential Geometry and Its Application)
 
 ## Research projects

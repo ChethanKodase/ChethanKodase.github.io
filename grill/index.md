@@ -109,12 +109,10 @@ A model that withstands an attack is not necessarily robust: the attack may simp
 ## Citation
 
 ```bibtex
-@inproceedings{ramanaik2026grill,
-  title     = {Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal Restoration},
-  author    = {Ramanaik, Chethan Krishnamurthy and Roy, Arjun and Callies, Tobias and Ntoutsi, Eirini},
-  booktitle = {Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM '26)},
-  year      = {2026},
-  address   = {Rome, Italy},
-  doi       = {10.1145/3799682.3840873}
+@article{ramanaik2025revealing,
+  title={Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal Restoration},
+  author={Ramanaik, Chethan Krishnamurthy and Roy, Arjun and Callies, Tobias and Ntoutsi, Eirini},
+  journal={arXiv preprint arXiv:2505.03646},
+  year={2025}
 }
 ```

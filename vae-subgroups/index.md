@@ -112,11 +112,12 @@ Adversarial robustness should be **evaluated per subgroup, not only on average**
 ## Citation
 
 ```bibtex
-@inproceedings{ramanaik2024vaesubgroups,
-  title     = {Adversarial Robustness of Variational Autoencoders across Intersectional Subgroups},
-  author    = {Ramanaik, Chethan Krishnamurthy and Roy, Arjun and Ntoutsi, Eirini},
-  booktitle = {BIAS Workshop at the European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)},
-  year      = {2024},
-  address   = {Vilnius, Lithuania}
+@inproceedings{ramanaik2024adversarial,
+  title={Adversarial Robustness of Variational Autoencoders Across Intersectional Subgroups},
+  author={Ramanaik, Chethan Krishnamurthy and Roy, Arjun and Ntoutsi, Eirini},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={65--80},
+  year={2024},
+  organization={Springer}
 }
 ```

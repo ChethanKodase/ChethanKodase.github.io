@@ -124,11 +124,11 @@ Robustness work has mostly focused on keeping large singular values small. Our r
 ## Citation
 
 ```bibtex
-@inproceedings{ramanaik2026ssgra,
-  title     = {On Adversarial Vulnerability of Vision-Language Models through the Lens of Intermediate Spectral Subspaces},
-  author    = {Ramanaik, Chethan Krishnamurthy and Callies, Tobias and Hecht, Michael and Ntoutsi, Eirini},
-  booktitle = {Proceedings of the 18th Asian Conference on Computer Vision (ACCV)},
-  year      = {2026},
-  address   = {Osaka, Japan}
+@article{ramanaik2026adversarial,
+  title={On Adversarial Vulnerability of Vision-Language Models through the Lens of Intermediate Spectral Subspaces},
+  author={Ramanaik, Chethan Krishnamurthy and Callies, Tobias and Hecht, Michael and Ntoutsi, Eirini},
+  journal={arXiv preprint arXiv:2607.07375},
+  year={2026}
 }
+
 ```

@@ -112,14 +112,14 @@ Low reconstruction error is not the same as a trustworthy latent space. By askin
 ## Citation
 
 ```bibtex
-@article{ramanaik2024topology,
-  title   = {Ensuring Topological Data-Structure Preservation under Autoencoder Compression Due to Latent Space Regularization in Gauss--Legendre Nodes},
-  author  = {Ramanaik, Chethan Krishnamurthy and Willmann, Anna and Suarez Cardona, Juan-Esteban and Hanfeld, Pia and Hoffmann, Nico and Hecht, Michael},
-  journal = {Axioms},
-  volume  = {13},
-  number  = {8},
-  pages   = {535},
-  year    = {2024},
-  doi     = {10.3390/axioms13080535}
+@article{ramanaik2024ensuring,
+  title={Ensuring Topological Data-Structure Preservation under Autoencoder Compression Due to Latent Space Regularization in Gauss--Legendre Nodes},
+  author={Ramanaik, Chethan Krishnamurthy and Willmann, Anna and Suarez Cardona, Juan-Esteban and Hanfeld, Pia and Hoffmann, Nico and Hecht, Michael},
+  journal={Axioms},
+  volume={13},
+  number={8},
+  pages={535},
+  year={2024},
+  publisher={MDPI}
 }
 ```

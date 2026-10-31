@@ -33,8 +33,7 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
 - [**Revealing Hidden Vulnerabilities in Autoencoders through Gradient Signal <span class="nowrap">Restoration<span class="click-icon"></span></span>**<br>C. K. Ramanaik, A. Roy, T. Callies, E. Ntoutsi](grill/)  
   *35th ACM International Conference on Information and Knowledge Management (CIKM 2026)*. Preprint: [arXiv:2505.03646](https://arxiv.org/abs/2505.03646)
 
-- **Adversarial Robustness of Variational Autoencoders Across Intersectional Subgroups**
-  C. K. Ramanaik, A. Roy, E. Ntoutsi  
+- [**Adversarial Robustness of Variational Autoencoders Across Intersectional <span class="nowrap">Subgroups<span class="click-icon"></span></span>**<br>C. K. Ramanaik, A. Roy, E. Ntoutsi](vae-subgroups/)  
   *BIAS Workshop at ECML PKDD 2024*, Vilnius, Lithuania (Machine Learning and Principles and Practice of Knowledge Discovery in Databases). Preprint: [arXiv:2407.03864](https://arxiv.org/abs/2407.03864)
 
 - **Ensuring Topological Data-Structure Preservation under Autoencoder Compression Due to Latent Space Regularization in Gauss–Legendre Nodes**

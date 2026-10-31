@@ -36,8 +36,7 @@ I came to machine learning from engineering. I worked as a mechanical engineer i
 - [**Adversarial Robustness of Variational Autoencoders Across Intersectional <span class="nowrap">Subgroups<span class="click-icon"></span></span>**<br>C. K. Ramanaik, A. Roy, E. Ntoutsi](vae-subgroups/)  
   *BIAS Workshop at ECML PKDD 2024*, Vilnius, Lithuania (Machine Learning and Principles and Practice of Knowledge Discovery in Databases). Preprint: [arXiv:2407.03864](https://arxiv.org/abs/2407.03864)
 
-- **Ensuring Topological Data-Structure Preservation under Autoencoder Compression Due to Latent Space Regularization in Gauss–Legendre Nodes**
-  C. K. Ramanaik, A. Willmann, J. E. Suarez Cardona, P. Hanfeld, N. Hoffmann, M. Hecht  
+- [**Ensuring Topological Data-Structure Preservation under Autoencoder Compression Due to Latent Space Regularization in Gauss–Legendre <span class="nowrap">Nodes<span class="click-icon"></span></span>**<br>C. K. Ramanaik, A. Willmann, J. E. Suarez Cardona, P. Hanfeld, N. Hoffmann, M. Hecht](topology-ae/)  
   *Axioms* 13(8), 535, 2024 (Special Issue on Differential Geometry and Its Application). [Journal](https://doi.org/10.3390/axioms13080535) · Preprint: [arXiv:2309.08228](https://arxiv.org/abs/2309.08228)
 
 ## Research projects
